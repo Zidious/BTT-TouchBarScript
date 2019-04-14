@@ -10,7 +10,7 @@ def getLXPrice():
                                         vs_currency='usd')
     currentPrice = "{:,}".format(round(getLX[0]['current_price'], 8))
     totalVolume = "{:,}".format(round(getLX[0]['total_volume'], 2))
-    return f"BTC: ${currentPrice} - " \
+    return f"LX: ${currentPrice} - " \
         f"24H VOL: ${totalVolume}"
 
 
