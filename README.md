@@ -33,6 +33,6 @@ Now, at the bottom right you'll see "Predefined Action", click onto the drop dow
 
 ###### Step 8
 
-Final step, you'll now be presented with a pop-up window simply enter in what is shown [here](http://prntscr.com/nbugbe)
+Final step, you'll now be presented with a pop-up window simply enter in what is shown [here](http://prntscr.com/nbugbe). Note that it is the file location of where you've downloaded the "AVA.py" script, so put it somewhere you can remember.
 
 And thats it... You're done! 
