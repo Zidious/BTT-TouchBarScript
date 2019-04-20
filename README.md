@@ -1,7 +1,7 @@
 # BTT-TouchBarScript
 CryptoCurrency touchbar button to pull price and 24H volume
 
-![](AVAEXMPLE.gif)
+![](ASSETS/NewExample.gif)
 
 ###### Step 1
 
