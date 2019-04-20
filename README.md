@@ -43,7 +43,7 @@ Final step, you'll now be presented with a pop-up window simply enter in what is
 
 And thats it... You're done! 
 
-# Adding Icons To Button - 
+# Adding Icons To Button (As shown in the GIF) - 
 
 First of all you'll need to source your desired icon, many projects have a graphic bundle, you can use this as your icon for each button.
 
