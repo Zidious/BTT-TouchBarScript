@@ -11,6 +11,8 @@ Download BetterTouchTool (BTT): https://folivora.ai/ - You get a 45 day trial, 1
 
 Download python 3.7: https://www.python.org/
 
+You will need to also install the CoinGeckoAPI dependency via pip, the command is:  ```pip3 install pycoingecko```
+
 ###### Step 2
 
 Select "TouchBar" located at the top right
