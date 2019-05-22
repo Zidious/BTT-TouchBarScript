@@ -8,6 +8,7 @@ CryptoCurrency touchbar button to pull price and 24H volume
 ###### Step 1
 
 Download BetterTouchTool (BTT): https://folivora.ai/ - You get a 45 day trial, 100% worth buying the license.
+NOTE: PLEASE INSTALL VERSION 2.8: https://bettertouchtool.net/releases/ - There are bugs with the newer version.
 
 Download python 3.7: https://www.python.org/
 
