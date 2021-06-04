@@ -9,7 +9,7 @@ CryptoCurrency touchbar button to get price, marketcap and volume of an asset.
 
 ###### Step 1
 
-Install BTT: https://bettertouchtool.net/releases/. You get a 45 day trial, I would recommend buying the license as I did, 100% worth buying the license and to support the dev!
+Install BTT: https://folivora.ai/. You get a 45 day trial, I would recommend buying the license as I did, 100% worth buying the license and to support the dev!
 
 Download python 3.7: https://www.python.org/.
 
