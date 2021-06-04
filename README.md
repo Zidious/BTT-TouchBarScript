@@ -1,5 +1,5 @@
 # BTT-TouchBarScript
-CryptoCurrency touchbar button to pull price and 24H volume
+CryptoCurrency touchbar button to get price, marketcap and volume of an asset. 
 
 ![](ASSETS/NewExample.gif)
 
@@ -7,41 +7,53 @@ CryptoCurrency touchbar button to pull price and 24H volume
 
 ###### Step 1
 
-NOTE: PLEASE INSTALL VERSION 2.8: https://bettertouchtool.net/releases/ - There are bugs with the newer version. You get a 45 day trial, 100% worth buying the license.
+Install BTT: https://bettertouchtool.net/releases/. You get a 45 day trial, I would recommend buying the license as I did, 100% worth buying the license and to support the dev!
 
-Download python 3.7: https://www.python.org/
+Download python 3.7: https://www.python.org/.
 
-You will need to also install the CoinGeckoAPI dependency via pip, the command is:  ```pip3 install pycoingecko```
+You will need to also install the CoinGeckoAPI dependency via pip, the command is:  ```pip3 install pycoingecko```.
 
 ###### Step 2
 
-Select "TouchBar" located at the top right
+Open up BTT and top left make sure "Touch Bar" is selected. There is where you'll be able to add individual buttons and/or button groups.
 
 ###### Step 3
 
-Select "+ Button Group" located at the bottom right
+Select "+" under Groups & Top Level Triggers.
 
 ###### Step 4
 
-At the bottom of the window a window will appear saying "Touch bar Button Group Name". For this example I've named it "CRYPTO"
+Under "Touch Bar Trigger Configuration" select the "Touch Bar Widgets" drop down and select "Shell Script / Task Widget".
 
 ###### Step 5
 
-Next you want to add a TouchBar Widget/Gesture. To do this select "+ Widget/Gesture". Under "Select Touch Bar Widget/Gesture"
-scroll down and select "Run Shell Script and Show Return Value".
+Under "Widget Identifier" remove any text within this box. 
+
+Under "Execute script every" select to the duration you wish i.e. 10 seconds
+
+At the bottom, under "script" enter the the name of the button i.e. AVA like so: ```echo AVA``` - This is the test that will appear on the button itself.
 
 ###### Step 6
 
-Once you've done step 5, a window will appear where you will input the name of your TouchBar button and what will appear on the
-button itself simply enter in: [Click Here](https://prnt.sc/nbubaw) and click save.
+Now, we need to assign an Action to this script, this will be the Python script. 
+
+Select the "+" and enter in "execute Shell Script / Task".
 
 ###### Step 7
 
-Now, at the bottom right you'll see "Predefined Action", click onto the drop down and select as shown [here](http://prntscr.com/nbudop)
+Now, we need to enter in the path of the script using Python3. 
+
+Download a script, for this example we will use ```Travala.py```.
+
+The script is the python3 path followed by the path of your saved script. Like so: 
+
+```/usr/local/bin/python3/ Users/gabe/Scripts/BTT-TouchBarScript/Travala.py``` - NOTE: there is a space between the end of `python3/ Users`.
 
 ###### Step 8
 
-Final step, you'll now be presented with a pop-up window simply enter in what is shown [here](http://prntscr.com/nbugbe). Note that it is the file location of where you've downloaded the "AVA.py" script, so put it somewhere you can remember.
+After inputting the script select "Run Script Now" and you should be prompted with the following output (example below): 
+
+`$3.0 - MC: $156,455,696 - VOL: $7,070,268`
 
 And thats it... You're done! 
 
