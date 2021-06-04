@@ -1,7 +1,9 @@
 # BTT-TouchBarScript
 CryptoCurrency touchbar button to get price, marketcap and volume of an asset. 
 
-![](ASSETS/NewExample.gif)
+
+<img src="ASSETS/NewExample.gif" width="300" height="300" />
+
 
 # Steps: Adding a script - 
 
@@ -55,7 +57,6 @@ After inputting the script select "Run Script Now" and you should be prompted wi
 
 `$3.0 - MC: $156,455,696 - VOL: $7,070,268`
 
-And thats it... You're done! 
 
 # Adding Icons To Button (As shown in the GIF) - 
 
@@ -63,25 +64,22 @@ First of all you'll need to source your desired icon, many projects have a graph
 
 ###### Step 1
 
-Select your desired script, underneath "Run Shell Script and Show Return Value".
+Select your desired button, under "Shell Script / Task Widget" you'll see "Common" Select this.
+
+Under "Icon" and "From Image File" on the right of "Select Button Icon" will be a grey box, select this and click "From Disk" locate your icon from your directory and click "Open".
 
 ###### Step 2
 
-Click onto "Advanced Configuration" and then onto "Appearance & Settings" 
-
-###### Step 3
-
-On the right hand side of the window you will see "Icon" and next to this a blank box with a dot in the middle. Simply click in the middle to be prompted to the next window 
-
-###### Step 4
-
-Once the pop up window has appeared, select "From Disk' and locate your icon from your directory and click "Open"
-
-###### Step 5
-
 Now, you will see you have an icon on your button. 
 
-If you want to make it more aesthetically pleasing, you can make the background of the button the same colour as your icon. To do this select "Background Color" and at the bottom left of the pop-up window you will see a colour picker, click onto this and hover over your icon and click to save the colour. 
+If you want to make it more aesthetically pleasing, you can make the background of the button the same colour as your icon. To do this under "Button Background Color" and at the bottom left of the pop-up window you will see a colour picker, click onto this and hover over your icon and click to save the colour. 
 
-That is it! Your button (background) will be the same colour as your icon.
+
+# All done!
+
+If you like this - Please go support the creator of BTT (Better-Touch-Tool) by purchasing his software (worth it!)
+
+My BSC address: 0x1e721B4361F93E7cd666E0aEA1a81bcb723d99dD
+
+Enjoy and happy HODLing! 
 
