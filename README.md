@@ -79,7 +79,5 @@ If you want to make it more aesthetically pleasing, you can make the background 
 
 If you like this - Please go support the creator of BTT (Better-Touch-Tool) by purchasing his software (worth it!)
 
-My BSC address: 0x1e721B4361F93E7cd666E0aEA1a81bcb723d99dD
-
 Enjoy and happy HODLing! 
 
